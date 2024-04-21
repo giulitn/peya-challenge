@@ -20,4 +20,5 @@ services:
 
 networks:
   app-network:
-    driver: bridge
+    external: true
+    name: peya-challenge-django_app-network
