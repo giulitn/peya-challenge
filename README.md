@@ -21,8 +21,6 @@ Descripción breve de cómo está organizado el proyecto:
 Instrucciones paso a paso para clonar y ejecutar el proyecto:
 
 1. **Clonar el Repositorio**
-git clone [url-del-repositorio]
-cd peya-challenge
 
 2. **Ejecutar con Docker Compose**
 Asegúrate de tener Docker y Docker Compose instalados en tu sistema. Luego, ejecuta:
