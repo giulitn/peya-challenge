@@ -23,11 +23,11 @@ Instrucciones paso a paso para clonar y ejecutar el proyecto:
 1. **Clonar el Repositorio**
 
 2. **Ejecutar con Docker Compose**
-Asegúrate de tener Docker y Docker Compose instalados en tu sistema. Luego, ejecuta:
+- Deberías tener Docker y Docker Compose instalados en tu sistema. Luego, ejecutar:
 `docker-compose up --build`
 Esto va a levantar tanto el backend en el puerto 3000 como el frontend en el puerto 8080.
 
-3. **Acceder a la Aplicación**
+4. **Acceder a la Aplicación**
 - Para el frontend: Abrir `http://localhost:8080` en el navegador
 - Backend: El backend estará accesible en `http://localhost:3000` y se puede ver la documentación con Swagger desde `http://localhost:3000/api`
 
