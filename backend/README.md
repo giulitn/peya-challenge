@@ -1,0 +1,40 @@
+```
+└── 📁backend
+    └── .env.example
+    └── .eslintrc.js
+    └── .gitignore
+    └── .prettierrc
+    └── Dockerfile
+    └── README.md
+    └── nest-cli.json
+    └── package-lock.json
+    └── package.json
+    └── 📁src
+        └── app.controller.spec.ts
+        └── app.controller.ts
+        └── app.module.ts
+        └── app.service.ts
+        └── 📁auth
+            └── auth.controller.spec.ts
+            └── auth.controller.ts
+            └── auth.module.ts
+            └── auth.service.spec.ts
+            └── auth.service.ts
+            └── 📁dto
+                └── create-user.dto.ts
+                └── login-user.dto.ts
+            └── 📁guards
+                └── jwt-auth.guard.ts
+            └── 📁strategies
+                └── jwt.strategy.ts
+        └── 📁common
+            └── 📁filters
+                └── all-exceptions.filter.ts
+        └── main.ts
+        └── 📁user
+            └── user.module.ts
+            └── user.schema.ts
+            └── user.service.ts
+    └── tsconfig.build.json
+    └── tsconfig.json
+```
